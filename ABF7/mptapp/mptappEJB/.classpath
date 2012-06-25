@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="ejbModule"/>
+	<classpathentry exported="true" kind="lib" path="C:/apps6/classes/frameworks/NylFrameworks.jar"/>
+	<classpathentry kind="lib" path="C:/usr/local/classes/nylmidcomp.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/WebSphere v6 JRE"/>
+	<classpathentry kind="con" path="com.ibm.wtp.server.java.core.container/com.ibm.ws.ast.st.runtime.core.runtimeTarget.v60/was.base.v6"/>
+	<classpathentry kind="output" path="ejbModule"/>
+</classpath>

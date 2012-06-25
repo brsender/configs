@@ -1,0 +1,20 @@
+Annual Plan Set Workfile locations for ABF7 like those of ABF6:
+ ABF C:\ABF7\annualplan\AnnualPlan\files  
+ AnnualPlan C:\ABF7\annualplan\AnnualPlan
+ APWebApp C:\ABF7\annualplan\AnnualPlan\APWebApp
+	config C:\ABF7\annualplan\AnnualPlan\config
+        docs C:\ABF7\annualplan\AnnualPlan\APWebApp
+        WEB-INF C:\ABF7\annualplan\AnnualPlan\APWebApp\WEB-INF
+ classes C:\ABF7\annualplan\AnnualPlan\JavaSource
+ META-INF C:\ABF7\annualplan\AnnualPlan\META-INF
+
+
+Annual Plan current Workfile locations for ABF7:
+ ABF C:\ABF7\annualplan
+ AnnualPlan c:\ABF7\AnnualPlan
+ APWebApp c:\ABF7\AnnualPlan\APWebApp
+        config c:\ABF7\AnnualPlan\APWebApp\config
+        docs c:\ABF7\AnnualPlan\APWebApp\WebContent
+        WEB-INF c:\ABF7\AnnualPlan\APWebApp\WEB-INF
+ classes c:\ABF7\AnnualPlan\src
+ META-INF c:\ABF7\AnnualPlan\META-INF
