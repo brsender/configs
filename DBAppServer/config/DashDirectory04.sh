@@ -1,0 +1,1 @@
+cd /prod/sys/WebSphere/AppServer6/profiles/ap00d04/installedApps/CellIsolated1/Dashboard.ear

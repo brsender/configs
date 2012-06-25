@@ -1,0 +1,138 @@
+07-23-11 17:39:33:741 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+07-23-11 17:53:18:618 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3450) successionResults.size = 1925
+07-23-11 18:12:20:707 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+07-23-11 18:37:09:740 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+07-23-11 19:21:45:161 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+07-23-11 19:50:27:852 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+07-23-11 22:04:15:033 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+07-23-11 22:08:34:834 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+07-23-11 22:40:32:098 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+07-23-11 23:58:30:362 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+07-24-11 00:27:32:186 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+07-24-11 00:44:10:176 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+07-24-11 00:54:43:477 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3450) successionResults.size = 1925
+07-24-11 00:56:24:650 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 3] - getSuccessionReport(3450) successionResults.size = 1925
+07-24-11 01:38:55:650 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3450) successionResults.size = 1925
+07-24-11 02:00:59:269 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+07-24-11 02:22:41:523 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+07-26-11 17:46:18:459 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3455) successionResults.size = 488
+07-26-11 18:00:11:401 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+07-26-11 18:06:24:901 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3455) successionResults.size = 488
+07-26-11 18:43:39:857 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+07-31-11 16:49:58:563 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+07-31-11 20:31:59:399 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+07-31-11 20:36:19:014 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+07-31-11 21:14:45:968 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+07-31-11 21:16:40:000 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-01-11 15:43:05:939 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-01-11 17:17:03:047 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-01-11 17:34:20:998 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-02-11 11:22:43:713 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 06:47:34:718 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 07:07:45:761 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 07:15:31:849 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 07:21:24:615 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 07:41:22:683 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 07:51:05:962 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 07:56:26:320 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 08:01:26:648 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 08:12:18:985 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 08:19:24:254 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 3] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 08:25:24:658 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 08:45:21:708 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 08:51:27:960 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 08:56:05:540 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 09:00:12:517 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 09:04:02:084 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 3] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 09:14:11:936 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 17:57:44:868 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 19:09:31:928 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 19:19:23:295 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 20:00:41:905 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+08-04-11 20:03:54:548 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 22:48:22:242 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 23:04:51:769 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 23:10:43:294 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 23:15:07:234 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 23:21:28:299 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-04-11 23:24:30:598 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-05-11 09:07:50:832 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-05-11 09:10:48:303 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 10:26:36:388 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 10:52:24:755 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 11:01:06:106 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 14:05:13:988 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 14:17:47:032 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 14:40:48:998 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 14:44:49:483 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3450) successionResults.size = 1925
+08-05-11 14:53:28:659 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-05-11 14:55:30:706 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 15:00:17:536 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3450) successionResults.size = 1925
+08-05-11 16:28:16:208 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 16:36:13:024 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3450) successionResults.size = 1925
+08-05-11 16:40:39:734 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+08-05-11 17:09:19:841 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3455) successionResults.size = 488
+08-06-11 10:19:24:808 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-06-11 19:21:44:609 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-07-11 01:53:34:351 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-07-11 02:09:00:005 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-11-11 17:31:27:123 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3495) successionResults.size = 446
+08-14-11 15:03:41:256 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-14-11 20:12:25:370 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-14-11 20:27:03:144 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3450) successionResults.size = 1925
+08-14-11 20:39:05:049 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3450) successionResults.size = 1925
+08-14-11 20:59:36:331 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3450) successionResults.size = 1925
+08-14-11 21:11:44:406 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3450) successionResults.size = 1925
+08-14-11 21:42:27:537 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-14-11 21:46:29:370 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-14-11 22:12:52:104 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-14-11 22:23:01:131 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3493) successionResults.size = 468
+08-14-11 22:35:44:340 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3493) successionResults.size = 468
+08-14-11 22:39:00:560 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3455) successionResults.size = 488
+08-14-11 23:13:27:443 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3455) successionResults.size = 488
+08-15-11 09:43:58:224 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3455) successionResults.size = 488
+08-15-11 11:35:58:936 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3455) successionResults.size = 488
+08-15-11 13:18:47:005 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(3455) successionResults.size = 488
+08-15-11 13:29:52:836 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3455) successionResults.size = 488
+08-15-11 13:49:49:518 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3455) successionResults.size = 488
+08-15-11 23:13:45:033 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3455) successionResults.size = 488
+08-15-11 23:17:31:802 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3497) successionResults.size = 232
+08-15-11 23:20:31:695 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(3493) successionResults.size = 468
+08-15-11 23:25:22:005 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(3450) successionResults.size = 1925
+08-23-11 08:09:58:791 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 3] - getSuccessionReport(127) successionResults.size = 762
+08-23-11 08:13:44:606 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 3] - getSuccessionReport(127) successionResults.size = 762
+08-23-11 08:55:12:027 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(85431) successionResults.size = 0
+08-23-11 08:55:34:059 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(84477) successionResults.size = 0
+08-23-11 08:55:48:825 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(84087) successionResults.size = 0
+08-23-11 08:56:06:638 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 0] - getSuccessionReport(129860) successionResults.size = 0
+08-23-11 09:15:11:427 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(129163) successionResults.size = 0
+08-23-11 09:16:11:147 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(127) successionResults.size = 762
+08-23-11 09:55:13:771 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(127) successionResults.size = 762
+08-23-11 09:56:08:804 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(127) successionResults.size = 762
+08-23-11 11:09:41:879 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(132440) successionResults.size = 0
+08-23-11 11:10:38:864 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(85396) successionResults.size = 0
+08-23-11 11:11:01:286 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(84217) successionResults.size = 0
+08-23-11 11:11:15:364 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(85588) successionResults.size = 0
+08-23-11 11:11:31:411 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(84183) successionResults.size = 0
+08-23-11 11:11:41:567 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(83749) successionResults.size = 0
+08-23-11 11:11:55:224 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(85859) successionResults.size = 0
+08-23-11 11:12:16:239 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(85879) successionResults.size = 0
+08-23-11 11:12:26:677 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(84479) successionResults.size = 0
+08-26-11 17:34:42:209 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 1] - getSuccessionReport(35) successionResults.size = 498
+09-07-11 12:40:13:056 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 6] - getSuccessionReport(216) successionResults.size = 256
+09-07-11 12:49:12:240 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 6] - Agreement Report: Request Agreement Reports for status code(s)[, , , ]
+09-07-11 12:49:12:271 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 6] - Agreement Report: Start Create AgreementStatusResult objects for [0] agreements.
+09-07-11 12:49:12:271 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 6] - Agreement Report: End Create [0] AgreementStatusResult objects for [0] agreements.
+09-07-11 12:49:12:271 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 6] - Agreement Report: Returned [0] Agreement Reports for status code(s)[, , , ]
+09-07-11 12:52:34:709 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 6] - Agreement Report: Request Agreement Reports for status code(s)[13]
+09-07-11 13:49:35:879 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: Request Agreement Reports for status code(s)[, , , ]
+09-07-11 13:49:35:911 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: Start Create AgreementStatusResult objects for [0] agreements.
+09-07-11 13:49:35:911 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: End Create [0] AgreementStatusResult objects for [0] agreements.
+09-07-11 13:49:35:911 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: Returned [0] Agreement Reports for status code(s)[, , , ]
+09-07-11 13:50:16:037 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: Request Agreement Reports for status code(s)[, , , ]
+09-07-11 13:50:16:052 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: Start Create AgreementStatusResult objects for [0] agreements.
+09-07-11 13:50:16:052 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: End Create [0] AgreementStatusResult objects for [0] agreements.
+09-07-11 13:50:16:052 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: Returned [0] Agreement Reports for status code(s)[, , , ]
+09-07-11 13:50:56:116 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: Request Agreement Reports for status code(s)[06, 12, 16, 17]
+09-07-11 14:00:18:223 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 5] - Agreement Report: Start Create AgreementStatusResult objects for [1288] agreements.
+09-08-11 12:19:50:838 INFO  com.nyl.sa.service.impl.TriggerReportServiceImpl [WebContainer : 2] - getSuccessionReport(129860) successionResults.size = 0

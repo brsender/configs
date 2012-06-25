@@ -1,0 +1,129 @@
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9081/dashboard/index.html
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9083/mptappweb/mptservlet
+
+*******Following is for use on rsa 7.5
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/mptappweb/mptservlet
+
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9084/dashboard/index.html
+
+**for rsa_7_workspace use:
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9083/APWebApp/index_gold.html?GOLDGO=A36
+
+** for My Documents/RAD6/wsad_6_rad workspace use:
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9084/APWebApp/index_gold.html?GOLDGO=A36
+
+****for Documents and Settings/t0602nr/IBM/rationalsdp/workspace use:
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9085/dashboard/index.html
+
+*******End rsa 7,5
+
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9081/dashboard/Atlantic/web/index.shtml
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9081/dashboard/Atlantic/web/contact.html
+
+http://localhost:9081/dashboard/Atlantic/web/index.html
+http://localhost:9081/dashboard/Atlantic/web/contact.html
+
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDAGT=843830
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=A36
+
+https://int.reportpub.newyorklife.com/DashboardData.svc/2009/2009/71044
+
+http://mdl.annualplan.newyorklife.com/APWebApp/index_gold.html (RNE05TW -- apjul2008)
+http://mdl.annualplan.newyorklife.com/APWebApp/index_gold.html?GOLDGO=A28&GOLDAGT=32476
+http://mdl.annualplan.newyorklife.com/APWebApp/index_gold.html?GOLDGO=V73&GOLDAGT=743931
+http://mdl.annualplan.newyorklife.com/APWebApp/index_gold.html?GOLDGO=V56&GOLDAGT=30921
+
+**Frameless example
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9081/dashboard/index_css.html
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9081/dashboard/go/lapse/recruiter.jsp?level=GO&view=LPSE&pageID1=RCR&pageID2=SMY&premFYC=NA&rcrno=976483&rcrnm=Miller,T
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/servlet/com.nyl.annualplan.ui.servlet.AnnualPlanServlet?GOLDGO=D13
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/servlet/com.nyl.annualplan.ui.servlet.AnnualPlanNoAuthServlet?GOLDGO=D13
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index.html?GOLDGO=V56
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/annualPlanNoAuthBegin.html?GOLDGO=D13
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9081/dashboard/index.html
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=V56AGTAD7F
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=V56
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=A28
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=A37
+
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=A28&GOLDAGT=32476
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDAGT=32476  A28
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDAGT=30921  V56
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDAGT=743931 V73
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDAGT=32476
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=V73&GOLDAGT=383696
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=V56&GOLDAGT=123456
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/jsp/testComboTester.jsp
+file:///c:/wsad_6_rad/APWebApp/WebContent/jsp/testCombo.jsp
+file:///c:/wsad_6_rad/APWebApp/WebContent/jsp/testCombo.html
+file:///c:/wsad_6_rad/APWebApp/WebContent/testMultiMenu.html
+
+http://dev.annualplan.newyorklife.com/APWebApp/index_gold.html?GOLDGO=D13
+
+http://dev.annualplan.newyorklife.com/APWebApp/index_gold.html?GOLDGO=A28
+http://dev.annualplan.newyorklife.com/APWebApp/index_gold.html?GOLDGO=A37
+
+http://dev.annualplan.newyorklife.com/APWebApp/index_gold.html?GOLDGO=V73
+
+http://int.annualplan.newyorklife.com/APWebApp/index_gold.html?GOLDGO=V73
+
+** The following url can be used to test going directly to the ap2 screen for test agent 'AGTBQCK'
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/servlet/com.nyl.annualplan.ui.servlet.GoldServlet?GOLDGO=A28&AGT_CODE=32476
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/index_gold.html?GOLDGO=A28&AGT_CODE=32476
+
+A16BPIE
+A19B4NU
+A22B4WU
+A28AM0Y
+A41BJDI
+A59006Z
+A5900AZ
+A5900B5
+A5900WS
+A59AAX1
+A59AJ2Q
+A59BD09
+A59BIRA
+A59BK95
+AGT1AKF
+AGTBMM2
+AGTBQCK
+D27003E
+D2707X1
+D2708FF
+D27BHXZ
+D27BM5V
+S27A92E
+S27BL0H
+S27BML7
+S6900S6
+TRUST96
+V55A6Y8
+V73BNFG
+V73BRNU
+V73BUZ2
+Z87AFOP
+
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9082/APWebApp/localgoogle.html
+
+cd /prod/sys/WebSphere/AppServer6/profiles/ap00d03ls/installedApps/CellIsolated1/Dashboard.ear
+cd /prod/sys/WebSphere/AppServer6/profiles/ap00d04/installedApps/CellIsolated1/Dashboard.ear

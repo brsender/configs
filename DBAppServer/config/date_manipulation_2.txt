@@ -1,0 +1,2 @@
+UCase(Format([Daily Payroll].[Date],"ddd",0,0))
+Int(Format([Daily Payroll].[Date],"ww",2,2))

@@ -1,0 +1,30 @@
+<!-- edited with XML Spy v3.5 NT (http://www.xmlspy.com) by Mike Stefano (NEW YORK LIFE INSURANCE COMPANY) -->
+<ns-config>
+	<env name="default">
+		<contexts>
+			<context name="default">
+				<provider-url>IIOP://</provider-url>
+				<initial-context-factory>com.ibm.websphere.naming.WsnInitialContextFactory</initial-context-factory>
+				<type>primary</type>
+			</context>
+			<context name="initial">
+				<provider-url>IIOP://localhost:10025</provider-url>
+				<initial-context-factory>com.ibm.websphere.naming.WsnInitialContextFactory</initial-context-factory>
+				<backup>initialBackup</backup>
+			</context>
+			<context name="initialBackup">
+				<provider-url>IIOP://localhost:10025</provider-url>
+				<initial-context-factory>com.ibm.websphere.naming.WsnInitialContextFactory</initial-context-factory>
+			</context>
+		</contexts>
+		<data-sources>
+			<data-source name="APDS">
+				<username>yp01011</username>
+				<password>xxxxxx</password>
+				<conn-string>jdbc:oracle:thin:@db00m01:1521:oram01</conn-string>
+				<pool-count>3</pool-count>
+				<driver>oracle.jdbc.driver.OracleDriver</driver>
+			</data-source>
+		</data-sources>
+	</env>
+</ns-config>

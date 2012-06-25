@@ -1,0 +1,181 @@
+<ns-config>
+	<env name="default">
+		<data-sources>
+			<data-source name="NYLifeGoldWebDS">
+				<sql id="meetingsetupsql">
+					<retry>3</retry>
+					<text>SELECT  * FROM WSSETUP A LEFT OUTER JOIN WSSETUP2 B 
+					ON A.MTGID = B.MTGID WHERE  A.MTGID =? </text>
+				</sql>
+				<sql id="workshopsetuplistsql">
+					<retry>3</retry>
+					<text>SELECT * FROM WSSETUPWS WHERE MTGID=? ORDER BY ORDERNUM</text>
+				</sql>
+				<sql id="registrationsql">
+					<retry>3</retry>
+					<text>SELECT * FROM WSINFO WHERE MTGID=? AND EMPIDNUM=?</text>
+				</sql>
+				<sql id="guestsql">
+					<retry>3</retry>
+					<text>SELECT * FROM WSGSTINFO WHERE MTGID=? AND REGID=? ORDER BY GUESTNUM ASC</text>
+				</sql>
+				<sql id="travelrequestsql">
+					<retry>3</retry>
+					<text>SELECT * FROM WSTRAVELREQ WHERE MTGID=? AND REGID=? ORDER BY GUESTNUM ASC</text>
+				</sql>
+				<sql id="travelinfosql">
+					<retry>3</retry>
+					<text>SELECT * FROM WSTRAVELINFO WHERE MTGID=? AND REGID=? ORDER BY GUESTNUM ASC</text>
+				</sql>
+				<sql id="AllSelectBoxListsql">
+					<retry>3</retry>
+					<text>SELECT * FROM WSSETUPLIST WHERE (MTGID=? OR MTGID=0) AND TYPE=? ORDER BY ORDERNUM</text>
+				</sql>
+				<sql id="registrationUpdatesql">
+					<retry>3</retry>
+					<text>
+						UPDATE WSINFO SET
+						REGSTATUS=?,TITLE=?,DEPARTMENT=?,OTHERDEPT=?,COSTCENTER=?,PD1=?,PD2=?,PD3=?,PD4=?,PD5=?,PD6=?,PD7=?,BADGENAME=?,DAYPHONE=?,BUSFAX=?,HOMEPHONE=?,PROGRAMPART=?,MEETYOURRES=?,SPCLNEEDS=?,DIETARYNEEDS=?,OTHERDIETARYNEEDS=?,PASSPORT=?,PPCOUNTRY=?,PPOTHERCOUNTRY=?,PPEXPDATE=?,PPDOB=?,PICHANGES=?,NYLIMAns1=?,NYLIMAns2=?,NYLIMAns3=?,InviteAns1_1=?,InviteAns2_1=?,InviteAns3_1=?,InviteAns1_2=?,InviteAns2_2=?,InviteAns3_2=?,InviteAns1_3=?,InviteAns2_3=?,InviteAns3_3=?,InviteAns1_4=?,InviteAns2_4=?,InviteAns3_4=?,InviteAns1_5=?,InviteAns2_5=?,InviteAns3_5=?,InviteAns1_6=?,InviteAns2_6=?,InviteAns3_6=?,InviteAns1_7=?,InviteAns2_7=?,InviteAns3_7=?,InviteAns1_8=?,InviteAns2_8=?,InviteAns3_8=?,InviteAns1_9=?,InviteAns2_9=?,InviteAns3_9=?,InviteAns1_10=?,InviteAns2_10=?,InviteAns3_10=?,BICHANGES=?,WS1=?,WS2=?,WS3=?,WS4=?,WS5=?,WS6=?,WS7=?,WS8=?,WHICHADDRESS=?,ROOMNUM=?,HOMEADDR1=?,HOMEADDR2=?,HOMECITY=?,HOMESTATE=?,HOMEPOSTALCODE=?,HOTELROOMREQ=?,HTLSMOKING=?,HTLBEDDING=?,HTLRMEXTRAS=?,EXTRAROOM=?,EXTENDEDSTAY=?,HTLEARLYIN=?,HTLLATEOUT=?,SHAREDROOM=?,RMNAME=?,RMGO=?,RMMARKETERNUM=?,RMEMAIL=?,ATTENDPREMIERDINNER=?,HOTELCABROOMREQ=?,CCEXTRARM=?,CCALTNIGHTS=?,CCCHECKIN=?,TravelHotelTransIn=?,TravelHotelTransOut=?,NoHotelTransferDD=?,NoHotelTransferOther=?,TravelOptionSel=?,VERSIONNUM=?,FINALSUBMIT=?,PICHANGESLAST=?,BICHANGESLAST=?,CCEXTRARMLAST=?,CCALTNIGHTSLAST=?,CCCHECKINLAST=?,EXTRAROOMLAST=?,EXTENDEDSTAYLAST=?,HTLEARLYINLAST=?,HTLLATEOUTLAST=?,CELLPHONE=?,GENERICTXT=?,GENERICCB=?,GENERICRB=?,GENERICDD=?,NONSOURCEDFEE=?,AnnualDinnerAns=?,NavAns1=?,NavAns2=?,NavAns3=?,PPCITIZENSHIP=?,PPCITOTHER=?,PPRESIDENCE=?,PPRESOTHER=?, HOTELBILLINGDATES=?
+						WHERE MTGID=? AND REGID=? AND VERSIONNUM=?
+					</text>
+				</sql>
+				<sql id="guestUpdatesql">
+					<retry>3</retry>
+					<text>UPDATE WSGSTINFO SET REGTYPE=?,REGSTATUS=?,REGFNAME=?,REGMNAME=?,REGLNAME=?,TITLE=?,BADGENAME=?,GENDER=?,DOB=?,SPCLNEEDS=?,DIETARYNEEDS=?,OTHERDIETARYNEEDS=?,PASSPORT=?,PPCOUNTRY=?,PPOTHERCOUNTRY=?,PPEXPDATE=?,PPDOB=?,ATTENDPREMIERDINNER=?,NYLIMDINANS=?,HONORDINNER=?,FADAY1=?,FADAY2=?,FADAY3=?,GSTWDELEGATE=?,TRAVELHOTELTRANSIN=?,TRAVELHOTELTRANSOUT=?,NOHOTELTRANSFERDD=?,NOHOTELTRANSFEROTHER=?,TRAVELOPTIONSEL=?,PRIMARYID=?,VERSIONNUM=?,INVITEANS_1=?,INVITEANS_2=?,INVITEANS_3=?,INVITEANS_4=?,INVITEANS_5=?,INVITEANS_6=?,INVITEANS_7=?,INVITEANS_8=?,INVITEANS_9=?,INVITEANS_10=?,Prefix=?,AnnualDinnerAns=?, navAns1=?,navAns2=?,navAns3=?,genericTxt=?,genericCb=?,genericRb=?,genericDd=?,nylimFeeLbl=?,nylimFee=?,PPCITIZENSHIP=?,PPCITOTHER=?,PPRESIDENCE=?,PPRESOTHER=?,GUESTFEE=?,GUESTFEELBL=? WHERE GUESTNUM=? AND MTGID=? AND REGID=? AND VERSIONNUM=?</text>
+				</sql>
+				<sql id="guestInsertsql">
+					<retry>3</retry>
+					<text>INSERT INTO WSGSTINFO (GUESTNUM,MTGID,REGID,PRIMARYID,VERSIONNUM) VALUES (?,?,?,?,?)</text>
+				</sql>
+				<sql id="travelInfoInsertsql">
+					<retry>3</retry>
+					<text>INSERT INTO WSTRAVELINFO (GUESTNUM,MTGID,REGID,VERSIONNUM) VALUES (?,?,?,?)</text>
+				</sql>
+				<sql id="travelRequestInsertsql">
+					<retry>3</retry>
+					<text>INSERT INTO WSTRAVELREQ (GUESTNUM,MTGID,REGID,VERSIONNUM) VALUES (?,?,?,?)</text>
+				</sql>
+				<sql id="travelInfoUpdatesql">
+					<retry>3</retry>
+					<text>UPDATE WSTRAVELINFO SET ARRAIRPORT=?,ARRDATE=?,ARRHOUR=?,ARRMIN=?,ARRAMPM=?,ARRAIRLINE=?,ARRAIRLINETB=?,ARRFLIGHT=?,DEPAIRPORT=?,DEPDATE=?,DEPHOUR=?,DEPMIN=?,DEPAMPM=?,DEPAIRLINE=?,DEPAIRLINETB=?,DEPFLIGHT=?,VERSIONNUM=? WHERE GUESTNUM=? AND MTGID=? AND REGID=? AND VERSIONNUM=?</text>
+				</sql>
+				<sql id="travelRequestUpdatesql">
+					<retry>3</retry>
+					<text>UPDATE WSTRAVELREQ SET HOMESTATE=?,HOMESTATEAPO=?,HOMESTATEAPTB=?,ARRDATE=?,ARRHOUR=?,ARRMIN=?,ARRAMPM=?,DEPDATE=?,DEPHOUR=?,DEPMIN=?,DEPAMPM=?,SEAT=?,LAST=?,MEAL=?,MEALOTHER=?,FFAIRLINE1=?,FFOTHERAIRLINE1=?,FFNUM1=?,FFAIRLINE2=?,FFOTHERAIRLINE2=?,FFNUM2=?,COMMENTS=?,VERSIONNUM=?,HOMESTATE_LAST=?,HOMESTATEAPO_LAST=?,HOMESTATEAPTB_LAST=?,ARRDATE_LAST=?,ARRHOUR_LAST=?,ARRMIN_LAST=?,ARRAMPM_LAST=?,DEPDATE_LAST=?,DEPHOUR_LAST=?,DEPMIN_LAST=?,DEPAMPM_LAST=?,SEAT_LAST=?,MEAL_LAST=?,MEALOTHER_LAST=?,FFAIRLINE1_LAST=?,FFOTHERAIRLINE1_LAST=?,FFNUM1_LAST=?,FFAIRLINE2_LAST=?,FFOTHERAIRLINE2_LAST=?,FFNUM2_LAST=?,COMMENTS_LAST=? WHERE GUESTNUM=? AND MTGID=? AND REGID=? AND VERSIONNUM=?</text>
+				</sql>
+				<sql id="superAdminMeetingsSql">
+					<retry>3</retry>
+					<text>SELECT Mtgid, MtgName, BannerMtgInfo, UserNotFound FROM  WSSetup WHERE HideFromWeb != 'yes' OR HideFromWeb = NULL ORDER BY Mtgid, MtgName</text>
+				</sql>
+				<sql id="officeAdminMeetingsSql">
+					<retry>3</retry>
+					<text>
+						<![CDATA[SELECT MTGID, MTGNAME, BANNERMTGINFO, USERNOTFOUND FROM WSSETUP WHERE 
+						  CONVERT(datetime,AGENTREGOPEN,110) <=
+						  CONVERT(datetime,GETDATE(),110) AND 
+						  CONVERT(datetime,AGENTREGCLOSE,110) >=
+						  CONVERT(datetime,GETDATE(),110)ORDER BY MTGID, MTGNAME]]>
+					</text>
+				</sql>
+				<sql id="officerEditorMeetingsSql">
+					<retry>3</retry>
+					<text>
+						<![CDATA[SELECT MTGID, MTGNAME, BANNERMTGINFO, USERNOTFOUND FROM WSSETUP WHERE 
+						CONVERT(datetime,OFFICERREGOPEN,110) <=
+						CONVERT(datetime,GETDATE(),110) AND 
+						CONVERT(datetime,OFFICERREGCLOSE,110) >=
+						CONVERT(datetime,GETDATE(),110)ORDER BY MTGID, MTGNAME]]>
+					</text>
+				</sql>
+				<sql id="userListSql">
+					<retry>3</retry>
+					<text>SELECT DISTINCT EMPIDNUM,REGFNAME,REGLNAME,REGMNAME FROM WSINFO WHERE MTGID= ? ORDER BY REGLNAME,REGFNAME,REGMNAME,EMPIDNUM</text>
+				</sql>
+				<sql id="officeAdminUserListSql">
+					<retry>3</retry>
+					<text>SELECT DISTINCT EMPIDNUM,REGFNAME,REGLNAME,REGMNAME FROM WSINFO WHERE MTGID= ? AND LOCATION = ? ORDER BY REGLNAME,REGFNAME,REGMNAME,EMPIDNUM</text>
+				</sql>
+				<sql id="editorAgentOfficerUserListSql">
+					<retry>3</retry>
+					<text>SELECT DISTINCT EMPIDNUM,REGFNAME,REGLNAME,REGMNAME FROM WSINFO WHERE MTGID= ? AND (EMPIDNUM = ? OR EDITOR=?) ORDER BY EMPIDNUM, REGFNAME,REGLNAME,REGMNAME</text>
+				</sql>
+				<sql id="guestEraseSql">
+					<retry>3</retry>
+					<text>DELETE FROM WSGSTINFO WHERE GUESTNUM=? AND MTGID=? AND REGID=?</text>
+				</sql>
+				<sql id="travelInfoEraseSql">
+					<retry>3</retry>
+					<text>DELETE FROM WSTRAVELINFO WHERE GUESTNUM=? AND MTGID=? AND REGID=?</text>
+				</sql>
+				<sql id="travelRequestEraseSql">
+					<retry>3</retry>
+					<text>DELETE FROM WSTRAVELREQ WHERE GUESTNUM=? AND MTGID=? AND REGID=?</text>
+				</sql>
+			</data-source>
+		</data-sources>
+		<mail>
+			<transport protocol="smtp">
+				<host>email.newyorklife.com</host>
+			</transport>
+			<persist>true</persist>
+			<qname>mptappqueue</qname>
+			<msgfilter>NylMailFilter</msgfilter>
+			<retry-count>10000</retry-count>
+		</mail>
+	</env>
+	<env name="local">
+		<data-sources>
+			<data-source name="NYLifeGoldWebDS">
+				<username>golduser</username>
+				<password>christi</password>
+				<conn-string>jdbc:microsoft:sqlserver://NYD-APPSRV1-AT:1433;DatabaseName=NYLifeGoldWeb</conn-string>
+				<pool-count>3</pool-count>
+				<driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+			</data-source>
+		</data-sources>
+	</env>
+	<env name="iso">
+		<data-sources>
+			<data-source name="NYLifeGoldWebDS">
+				<username>golduser</username>
+				<password>christi</password>
+				<conn-string>jdbc:microsoft:sqlserver://NYD-APPSRV1-AT:1433;DatabaseName=NYLifeGoldWeb</conn-string>
+				<pool-count>3</pool-count>
+				<driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+			</data-source>
+		</data-sources>
+	</env>
+	<env name="int">
+		<data-sources>
+			<data-source name="NYLifeGoldWebDS">
+				<username>golduser</username>
+				<password>christi</password>
+				<conn-string>jdbc:microsoft:sqlserver://NYD-APPSRV1-AT:1433;DatabaseName=NYLifeGoldWeb</conn-string>
+				<pool-count>3</pool-count>
+				<driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+			</data-source>
+		</data-sources>
+	</env>
+	<env name="mdl">
+		<data-sources>
+			<data-source name="NYLifeGoldWebDS">
+				<username>golduser</username>
+				<password>christi</password>
+				<conn-string>jdbc:microsoft:sqlserver://NYD-APPSRV1-AT:1433;DatabaseName=NYLifeGoldWeb</conn-string>
+				<pool-count>3</pool-count>
+				<driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+			</data-source>
+		</data-sources>
+	</env>
+	<env name="prod">
+		<data-sources>
+			<data-source name="NYLifeGoldWebDS">
+				<username>golduser</username>
+				<password>christi</password>
+				<conn-string>jdbc:microsoft:sqlserver://NYP-APPSRV1-CJ:1433;DatabaseName=NYLifeGoldWeb</conn-string>
+				<pool-count>3</pool-count>
+				<driver>com.microsoft.jdbc.sqlserver.SQLServerDriver</driver>
+			</data-source>
+		</data-sources>
+	</env>
+</ns-config>

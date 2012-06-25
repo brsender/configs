@@ -1,0 +1,142 @@
+SELECT rcr.MKTR_NO,
+	   rcr.name,
+	   rcr.title,
+	   rcr.pageID1,
+	   rcr.appt_date,
+	   (CASE WHEN title = 'P'  THEN ptnr.pops
+	         WHEN title = 'SP' THEN sptnr.pops
+		END) pops,
+	   (CASE WHEN title = 'P'  THEN ptnr.appts
+	         WHEN title = 'SP' THEN sptnr.appts
+		END) appts,
+	   (CASE WHEN title = 'P'  THEN ptnr.quality
+	   		 WHEN title = 'SP' THEN sptnr.quality
+		END) quality,
+	   (CASE WHEN title = 'P'  THEN avg_cases
+	    	 WHEN title = 'SP' THEN council 
+		END) cases_or_council,
+	   (CASE WHEN title = 'P'  THEN ptnr.manpower
+	   		 WHEN title = 'SP' THEN sptnr.manpower
+		END) manpower,
+	   (CASE WHEN title = 'P'  THEN ptnr.pct_fyc
+	   		 WHEN title = 'SP' THEN sptnr.pct_fyc 
+	    END) fyc,
+	   (CASE WHEN title = 'P'  THEN ptnr.retention
+	   		 WHEN title = 'SP' THEN sptnr.retention
+	    END) retention,
+	   (CASE WHEN title = 'P'  THEN ptnr.curr_mth_gpa
+	   		 WHEN title = 'SP' THEN sptnr.curr_mth_gpa 
+	    END) curr_mo_gpa,
+	   (CASE WHEN title = 'P'  THEN ptnr.prior_qtr_gpa
+	   		 WHEN title = 'SP' THEN sptnr.prior_qtr_gpa
+		END) prior_qtr_gpa
+FROM
+(SELECT dash.MKTR_NO,
+       TRIM(dash.ABREVIATED_NM) name,
+	   ttl.MK_TTL_TP_SHORT_NM title,
+	   (CASE WHEN dash.MK_TTL_TP_CD = '0F' THEN 'PTNR'
+	         WHEN dash.MK_TTL_TP_CD = 'AC' THEN 'SNR'
+	    END) pageID1,
+		MAX(ttl2.MK_TTL_EDT) appt_date
+FROM   ai0101.mk_dashbrd dash,
+	   ai0101.mk_ttl_tp  ttl,
+	   ai0101.mk_ttl_atv ttl2
+WHERE  dash.MKTR_NO = ttl2.MKTR_NO
+AND    ttl2.MK_TTL_TP_CD = '0F'
+--AND    dash.MK_TTL_TP_CD = ttl2.MK_TTL_TP_CD
+AND    dash.MK_TTL_TP_CD = ttl.MK_TTL_TP_CD
+AND    dash.ALT_ORG_UNIT_CD = 'V56'
+AND    (dash.MKTR_NO IN (SELECT ptn.MKTR_NO 
+                         FROM ai0101.gpa_ptn ptn)
+				OR
+		dash.MKTR_NO IN (SELECT sptn.MKTR_NO
+		                 FROM ai0101.gpa_sptn sptn)
+	   ) 
+GROUP BY
+	   dash.MKTR_NO,
+       TRIM(dash.ABREVIATED_NM),
+       ttl.MK_TTL_TP_SHORT_NM,
+	   (CASE WHEN dash.MK_TTL_TP_CD = '0F' THEN 'PTNR'
+	         WHEN dash.MK_TTL_TP_CD = 'AC' THEN 'SNR'
+	    END)
+) rcr,
+(SELECT 
+    curr_ptnr.MKTR_NO        mktr_no,
+    (CASE WHEN NVL(YTD_MNTH_ACT_QY, 0) = 0 THEN 0
+	      ELSE ((NVL(YTD_CP_PASSED_QY,0) + NVL(PT_QY,0)) / YTD_MNTH_ACT_QY)
+	 END)                    pops, 
+    NVL(NEW_AGT_APPT_QY, 0)  appts, 
+	NVL(QUALITY_AGT_QY, 0)   quality,
+	NVL(AVG_LF_CASES_QY, 0)  avg_cases,
+	NVL(MNPWR_DEV_QY, 0)     manpower,	
+	NVL(POP_PC, 0)           pct_fyc,
+	((NVL(curr_ptnr.POINTS_71_NO,0) + NVL(curr_ptnr.POINTS_72_NO,0) + 
+	  NVL(curr_ptnr.POINTS_73_NO,0) + NVL(curr_ptnr.POINTS_74_NO,0)) / 4)
+ 				             retention,
+	NVL(CE_PT8_NO, 0)        ce_credits, 
+	(((NVL(curr_ptnr.POINTS_1_NO,0) + NVL(curr_ptnr.POINTS_2_NO,0) + NVL(curr_ptnr.POINTS_3_NO,0) +
+	  NVL(curr_ptnr.POINTS_4_NO,0) + NVL(curr_ptnr.POINTS_5_NO,0) + NVL(curr_ptnr.POINTS_6_NO,0) +
+	  ((NVL(curr_ptnr.POINTS_71_NO,0) +  NVL(curr_ptnr.POINTS_72_NO,0) + 
+	    NVL(curr_ptnr.POINTS_73_NO,0) + NVL(curr_ptnr.POINTS_74_NO,0)) / 4)) / 7) + NVL(CE_PT8_NO,0)) 
+	                         curr_mth_gpa,
+	NVL(AVG_PTS_NO,0)        prior_qtr_gpa
+FROM
+ ai0101.mk_dashbrd dash,
+ ai0101.gpa_ptn curr_ptnr,
+ ai0101.gpa_prior_ptn prior_ptnr 
+WHERE
+  curr_ptnr.MKTR_NO = dash.MKTR_NO
+AND
+  curr_ptnr.MKTR_NO = prior_ptnr.MKTR_NO (+)
+AND
+  dash.ALT_ORG_UNIT_CD = 'V56'
+) ptnr,
+(SELECT 
+    curr_ptnr.MKTR_NO        mktr_no,
+    (CASE WHEN NVL(YTD_MNTH_ACT_QY, 0) = 0 THEN 0
+	      ELSE ((NVL(YTD_CP_PASSED_QY,0) + NVL(PT_QY,0)) / YTD_MNTH_ACT_QY)
+	 END)                    pops, 
+    NVL(NEW_AGT_APPT_QY, 0)  appts, 
+	NVL(QUALITY_AGT_QY, 0)   quality,
+	NVL(MNPWR_DEV_QY, 0)     manpower,	
+	NVL(POP_PC, 0)           pct_fyc,
+	NVL(CNCL_AGT_QY, 0)      council,
+	((NVL(curr_ptnr.POINTS_61_NO,0) + NVL(curr_ptnr.POINTS_62_NO,0) + 
+	  NVL(curr_ptnr.POINTS_63_NO,0) + NVL(curr_ptnr.POINTS_64_NO,0)) / 4)
+ 	   				         retention,
+	NVL(CE_PT9_NO,0)         ce_credits,
+	(((NVL(mp.POINTS_1_NO,0) + NVL(mp.POINTS_2_NO,0) + NVL(mp.POINTS_3_NO,0) +
+	 NVL(mp.POINTS_4_NO,0) + NVL(mp.POINTS_5_NO,0) + NVL(mp.POINTS_6_NO,0) +
+	 ((NVL(mp.POINTS_71_NO,0) + NVL(mp.POINTS_72_NO,0) + NVL(mp.POINTS_73_NO,0) + NVL(mp.POINTS_74_NO,0)) / 4)) 
+	 / 7) + NVL(prior_mp.PROMO_PT8_NO,0))
+	                         go_gpa,
+	(((NVL(curr_ptnr.POINTS_1_NO,0) + NVL(curr_ptnr.POINTS_2_NO,0) + NVL(curr_ptnr.POINTS_3_NO,0) +
+	  NVL(curr_ptnr.POINTS_4_NO,0) + NVL(curr_ptnr.POINTS_5_NO,0) + 
+	  ((NVL(curr_ptnr.POINTS_61_NO,0) +  NVL(curr_ptnr.POINTS_62_NO,0) + 
+	    NVL(curr_ptnr.POINTS_63_NO,0) + NVL(curr_ptnr.POINTS_64_NO,0)) / 4) +
+		NVL(curr_ptnr.POINTS_7_NO,0)  + NVL(prior_ptnr.GPA_PT8_NO,0)) / 8) + NVL(CE_PT9_NO,0)) 
+	                         curr_mth_gpa,
+	NVL(prior_ptnr.AVG_PTS_NO,0)
+	    					 prior_qtr_gpa
+FROM
+   ai0101.mk_dashbrd dash,
+   ai0101.gpa_sptn curr_ptnr,
+   ai0101.gpa_mp mp,
+   ai0101.gpa_prior_mp prior_mp,
+   ai0101.gpa_prior_sptn prior_ptnr  
+
+WHERE
+   curr_ptnr.MKTR_NO = dash.MKTR_NO
+AND
+   curr_ptnr.MKTR_NO = prior_ptnr.MKTR_NO (+)
+AND
+   dash.ALT_ORG_UNIT_CD = 'V56'
+AND
+   dash.ALT_ORG_UNIT_CD = mp.ALT_ORG_UNIT_CD (+)
+AND
+   dash.ALT_ORG_UNIT_CD   = prior_mp.ALT_ORG_UNIT_CD (+)
+) sptnr
+WHERE  rcr.MKTR_NO = ptnr.MKTR_NO (+)
+AND    rcr.MKTR_NO = sptnr.MKTR_NO (+)
+ORDER BY title,
+         name 

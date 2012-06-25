@@ -1,0 +1,148 @@
+09-07-10 07:42:54 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-07-10 07:42:54 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+09-07-10 07:42:54 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+09-07-10 07:43:50 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+09-07-10 07:43:50 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+09-07-10 07:49:59 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 1] - Loading page: com.nyl.annualplan.ui.handlers.MP1BHandler
+09-07-10 07:50:06 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 1] - Loading page: com.nyl.annualplan.ui.handlers.GoldAP4Handler
+09-07-10 07:50:17 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 1] - Loading page: com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler
+09-20-10 12:33:28 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-20-10 12:33:28 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+09-20-10 12:33:28 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+09-30-10 07:33:10 WARN  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 07:33:10 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: AnnualPlanServlet
+09-30-10 07:33:10 INFO  com.nyl.annualplan.ui.servlet.AnnualPlanServlet [WebContainer : 0] - Enters INIT
+09-30-10 07:33:18 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.ErrorHandler
+09-30-10 07:33:18 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.SelectGOHandler
+09-30-10 07:33:18 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - SelectGOHandler: doEnter ()
+09-30-10 07:33:34 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.LogoutHandler
+09-30-10 07:34:15 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 07:34:15 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+09-30-10 07:34:15 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+09-30-10 07:34:21 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+09-30-10 07:34:21 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+09-30-10 07:42:19 WARN  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 07:42:19 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: AnnualPlanServlet
+09-30-10 07:42:19 INFO  com.nyl.annualplan.ui.servlet.AnnualPlanServlet [WebContainer : 0] - Enters INIT
+09-30-10 07:42:27 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.ErrorHandler
+09-30-10 07:42:27 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.SelectGOHandler
+09-30-10 07:42:27 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - SelectGOHandler: doEnter ()
+09-30-10 07:42:35 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.LogoutHandler
+09-30-10 07:42:55 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 07:42:55 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+09-30-10 07:42:55 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+09-30-10 07:43:01 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+09-30-10 07:43:01 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+09-30-10 11:34:10 WARN  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 11:34:10 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: AnnualPlanServlet
+09-30-10 11:34:10 INFO  com.nyl.annualplan.ui.servlet.AnnualPlanServlet [WebContainer : 0] - Enters INIT
+09-30-10 11:34:19 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.ErrorHandler
+09-30-10 11:34:19 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.SelectGOHandler
+09-30-10 11:34:19 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - SelectGOHandler: doEnter ()
+09-30-10 11:34:29 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.HoZoneAPHandler
+09-30-10 11:34:32 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.SelectAgentHandler
+09-30-10 11:34:36 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.LogoutHandler
+09-30-10 11:35:41 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 11:35:41 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+09-30-10 11:35:41 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+09-30-10 11:35:51 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+09-30-10 11:35:51 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+09-30-10 11:35:57 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP2AHandler
+09-30-10 11:36:30 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - page request is not defined.
+09-30-10 11:36:30 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - page request is not defined.
+09-30-10 12:47:40 WARN  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 12:47:40 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: AnnualPlanServlet
+09-30-10 12:47:40 INFO  com.nyl.annualplan.ui.servlet.AnnualPlanServlet [WebContainer : 0] - Enters INIT
+09-30-10 12:47:48 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.ErrorHandler
+09-30-10 12:47:48 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.SelectGOHandler
+09-30-10 12:47:48 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - SelectGOHandler: doEnter ()
+09-30-10 12:47:57 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.HoZoneAPHandler
+09-30-10 12:47:59 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.LogoutHandler
+09-30-10 16:03:17 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 16:03:17 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+09-30-10 16:03:17 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+09-30-10 16:03:29 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+09-30-10 16:03:29 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+09-30-10 16:03:35 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1BHandler
+09-30-10 16:03:39 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP2AHandler
+09-30-10 16:03:45 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1CHandler
+09-30-10 16:03:47 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1DHandler
+09-30-10 16:05:32 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.AP1Handler
+09-30-10 16:06:05 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.AP3Handler
+09-30-10 16:06:14 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldAP4Handler
+09-30-10 16:06:57 WARN  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+09-30-10 16:06:57 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: AnnualPlanServlet
+09-30-10 16:06:57 INFO  com.nyl.annualplan.ui.servlet.AnnualPlanServlet [WebContainer : 0] - Enters INIT
+09-30-10 16:07:04 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.ErrorHandler
+09-30-10 16:07:04 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.SelectGOHandler
+09-30-10 16:07:04 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - SelectGOHandler: doEnter ()
+09-30-10 16:07:10 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.HoZoneAPHandler
+09-30-10 16:07:12 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.AP4Handler
+09-30-10 16:07:20 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.CompanyByClassGOHandler
+09-30-10 16:07:44 INFO  com.nyl.annualplan.ui.handlers.APAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.LogoutHandler
+09-30-10 16:08:18 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - SelectGOHandler: doEnter ()
+09-30-10 16:08:33 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - page request is not defined.
+09-30-10 16:08:33 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - page request is not defined.
+09-30-10 16:08:33 FATAL com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - SelectGOHandler: doEnter ()
+11-11-10 07:31:08 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+11-11-10 07:31:08 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+11-11-10 07:31:08 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+11-11-10 07:31:26 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+11-11-10 07:31:26 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+11-11-10 07:31:39 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 1] - Loading page: com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler
+11-11-10 07:31:39 ERROR com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 1] - CompanyZoneOfficeDAOImpl::getMgrOfficePlans: Exception Message is ORA-01858: a non-numeric character was found where a numeric was expected
+
+11-11-10 07:32:37 ERROR com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 1] - CompanyZoneOfficeDAOImpl::getMgrOfficePlans: Exception Message is ORA-01858: a non-numeric character was found where a numeric was expected
+
+11-11-10 07:36:41 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+11-11-10 07:36:41 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+11-11-10 07:36:41 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+11-11-10 07:36:55 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+11-11-10 07:36:55 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+11-11-10 07:37:01 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler
+11-11-10 07:37:01 ERROR com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - CompanyZoneOfficeDAOImpl::getMgrOfficePlans: Exception Message is ORA-01858: a non-numeric character was found where a numeric was expected
+
+11-11-10 07:38:17 ERROR com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 0] - CompanyZoneOfficeDAOImpl::getMgrOfficePlans: Exception Message is ORA-01858: a non-numeric character was found where a numeric was expected
+
+11-11-10 07:40:52 ERROR com.nyl.annualplan.ui.util.AnnualPlanLogger [WebContainer : 2] - CompanyZoneOfficeDAOImpl::getMgrOfficePlans: Exception Message is ORA-01858: a non-numeric character was found where a numeric was expected
+
+11-11-10 07:42:46 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+11-11-10 07:42:46 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+11-11-10 07:42:46 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+11-11-10 07:42:58 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+11-11-10 07:42:58 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler
+11-11-10 07:44:01 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 1] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+11-11-10 07:44:13 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 1] - Loading page: com.nyl.annualplan.ui.handlers.GoldAP4Handler
+11-11-10 07:48:26 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+11-11-10 07:48:26 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+11-11-10 07:48:26 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+11-11-10 07:48:38 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+11-11-10 07:48:38 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+11-11-10 07:48:45 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler
+01-06-11 17:26:49 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Unable to load pagelist element in ui config file.
+01-06-11 17:26:49 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Invalid character-set is not used for servlet: GoldServlet
+01-06-11 17:26:49 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [WebContainer : 0] - Enters INIT
+01-06-11 17:27:05 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+01-06-11 17:27:05 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+01-06-11 17:28:25 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP1BHandler
+01-06-11 17:28:49 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.MP2AHandler
+01-06-11 17:29:37 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.GoldAP4Handler
+01-06-11 17:29:47 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [WebContainer : 0] - Loading page: com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler
+01-07-11 08:27:33 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_36] - Unable to load pagelist element in ui config file.
+01-07-11 08:27:33 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_36] - Invalid character-set is not used for servlet: GoldServlet
+01-07-11 08:27:33 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [Thread_36] - Enters INIT
+01-07-11 08:27:37 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_36] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+01-07-11 08:27:37 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_36] - Loading page: com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler
+01-07-11 08:28:16 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_70] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+02-17-11 17:54:06 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_181] - Unable to load pagelist element in ui config file.
+02-17-11 17:54:06 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_181] - Invalid character-set is not used for servlet: GoldServlet
+02-17-11 17:54:06 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [Thread_181] - Enters INIT
+02-17-11 17:54:10 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_181] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+02-17-11 17:54:10 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_181] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler
+02-17-11 17:54:57 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_181] - Loading page: com.nyl.annualplan.ui.handlers.MP1BHandler
+03-15-11 08:17:25 WARN  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_6] - Unable to load pagelist element in ui config file.
+03-15-11 08:17:25 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_6] - Invalid character-set is not used for servlet: GoldServlet
+03-15-11 08:17:25 INFO  com.nyl.annualplan.ui.servlet.GoldServlet [Thread_6] - Enters INIT
+03-15-11 08:17:28 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_6] - Loading page: com.nyl.annualplan.ui.handlers.GoldErrorHandler
+03-15-11 08:17:29 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_6] - Loading page: com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler
+03-15-11 08:18:01 INFO  com.nyl.annualplan.ui.handlers.GoldAppPages [Thread_47] - Loading page: com.nyl.annualplan.ui.handlers.MP1AHandler

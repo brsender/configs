@@ -1,0 +1,17 @@
+${FRAMEWORKS_PATH}/commons-beanutils.jar
+${FRAMEWORKS_PATH}/commons-collections.jar
+${FRAMEWORKS_PATH}/commons-digester.jar
+${FRAMEWORKS_PATH}/commons-fileupload.jar
+${FRAMEWORKS_PATH}/commons-io.jar
+${FRAMEWORKS_PATH}/commons-logging.jar
+${FRAMEWORKS_PATH}/commons-validator.jar
+${FRAMEWORKS_PATH}/ehcache.jar
+${FRAMEWORKS_PATH}/FrameworksJMX.jar
+${FRAMEWORKS_PATH}/jakarta-oro.jar
+${FRAMEWORKS_PATH}/JSX.jar
+${FRAMEWORKS_PATH}/log4j.jar
+${FRAMEWORKS_PATH}/NylFrameworks.jar
+${FRAMEWORKS_PATH}/NYLTiles.jar
+${FRAMEWORKS_PATH}/odwek.jar
+${FRAMEWORKS_PATH}/sunjce_provider.jar
+${FRAMEWORKS_PATH}/TivoliConnection.jar

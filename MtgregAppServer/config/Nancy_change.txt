@@ -1,0 +1,20 @@
+				<sql id="userListSql">
+					<retry>3</retry>
+					<text>SELECT DISTINCT EMPIDNUM,REGFNAME,REGLNAME,REGMNAME 
+						FROM WSINFO 
+						WHERE MTGID= ? 
+						ORDER BY REGLNAME,REGFNAME,REGMNAME,EMPIDNUM</text>
+				</sql>
+				<sql id="officeAdminUserListSql">
+					<retry>3</retry>
+					<text>SELECT DISTINCT EMPIDNUM,REGFNAME,REGLNAME,REGMNAME 
+						FROM WSINFO 
+						WHERE MTGID= ? AND LOCATION = ? 
+						ORDER BY REGLNAME,REGFNAME,REGMNAME,EMPIDNUM</text>
+				</sql>
+				<sql id="editorAgentOfficerUserListSql">
+					<retry>3</retry>
+					<text>SELECT DISTINCT EMPIDNUM,REGFNAME,REGLNAME,REGMNAME 
+						FROM WSINFO 
+						WHERE MTGID= ? AND (EMPIDNUM = ? OR EDITOR=?) 
+						ORDER BY EMPIDNUM, REGFNAME,REGLNAME,REGMNAME</text>

@@ -1,0 +1,5 @@
+https://int.auth.newyorklife.com/OAACWebApp/servlet/nyl.security.WSADSMLogin?returl=http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9083/mptappweb/mptservlet
+
+For rsa 7.5 server :
+
+http://wny-bsende-02nr.hq.nt.newyorklife.com:9082/mptappweb/mptservlet

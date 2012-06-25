@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited by Prakash Patel. New York Life. -->
+<ServletConfig>
+  <servlet name="AnnualPlanServlet">
+    	
+    	<page name="com.nyl.annualplan.ui.handlers.AP2Handler" key="/AP2Page"/>
+    	<page name="com.nyl.annualplan.ui.handlers.AP4Handler" key="/AP4Page"/>
+	<page name="com.nyl.annualplan.ui.handlers.AP2SHandler" key="/AP2SPage"/>
+
+	<page name="com.nyl.annualplan.ui.handlers.SelectAgentHandler" key="/SelectAgentPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.SelectGOHandler" key="/SelectGOPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.HoZoneAPHandler" key="/HoZoneAPPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.CompanyByClassGOHandler" key="/CompanyByClassGOPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.CompanyByClassZoneHandler" key="/CompanyByClassZonePage"/>
+	 <page name="com.nyl.annualplan.ui.handlers.LogoutHandler" key="/LogoutPage"/>
+
+
+	<page name="com.nyl.annualplan.ui.handlers.ErrorHandler" key="/ErrorPage"/>
+
+	
+
+    <initial-page key="/ErrorPage"/>
+    <controller name="com.nyl.annualplan.ui.handlers.APAppPages"/>     
+  </servlet>
+  <servlet name="GoldServlet">
+    	
+    	<page name="com.nyl.annualplan.ui.handlers.GoldSelectGOHandler" key="/GoldSelectGOPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.GoldHoZoneHandler" key="/GoldHoZonePage"/>
+	<page name="com.nyl.annualplan.ui.handlers.MP1AHandler" key="/MP1APage"/>	
+	<page name="com.nyl.annualplan.ui.handlers.MP1BHandler" key="/MP1BPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.MP1CHandler" key="/MP1CPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.MP1DHandler" key="/MP1DPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.MP2AHandler" key="/MP2APage"/>
+	<page name="com.nyl.annualplan.ui.handlers.GoldLogoutHandler" key="/GoldLogoutPage"/>	
+	<page name="com.nyl.annualplan.ui.handlers.GoldErrorHandler" key="/GoldErrorPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.AP1Handler" key="/AP1Page"/>
+	<page name="com.nyl.annualplan.ui.handlers.AP3Handler" key="/AP3Page"/>
+	<page name="com.nyl.annualplan.ui.handlers.GoldAP2Handler" key="/GoldAP2Page"/>
+	<page name="com.nyl.annualplan.ui.handlers.GoldSelectAgentHandler" key="/GoldSelectAgentPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.GoldAP4Handler" key="/GoldAP4Page"/>
+	<page name="com.nyl.annualplan.ui.handlers.AP2SAsAP4Handler" key="/GoldAP2SPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.GoldHoZoneAPHandler" key="/GoldHoZoneAPPage"/>
+	<page name="com.nyl.annualplan.ui.handlers.CompanyZoneOfficeHandler" key="/CompanyZoneOfficePage"/>
+	<page name="com.nyl.annualplan.ui.handlers.GoldCompanyByClassZoneHandler" key="/GoldCompanyByClassZonePage"/>
+	
+	
+
+    <initial-page key="/GoldErrorPage"/>
+    <controller name="com.nyl.annualplan.ui.handlers.GoldAppPages"/>     
+  </servlet>
+</ServletConfig>

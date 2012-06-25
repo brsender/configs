@@ -1,0 +1,26 @@
+SELECT [Job Table].[Job #], [Job Table].[Job Address],
+[Employee].[Employee], [Daily Payroll].[Date], [Daily Payroll].[Week],
+[Daily Payroll].[Reg Hours], [Daily Payroll].[OT Hours], [Job Table].[Location]
+FROM [Job Table], [Daily Payroll], Employee
+WHERE ((([Daily Payroll].[Week])=4) And (([Daily Payroll].[PayYear])=["Enter Payroll Year"]) 
+And (([Job Table].[ID])=[Daily Payroll].[JobID]) And
+(([Employee].[ID])=[Daily Payroll].[EmployeeID]) And (([Job Table].[Status])="Open"))
+ORDER BY [Job Table].[Job #], [Daily Payroll].[Week], [DailyPayroll].[Date], [Employee].[Employee], [Employee].[Employee #];
+-----------------------------------------------------------------------------------------------------------------------------
+SELECT [Job Table].[Job #], [Job Table].[Job Address], [Employee].[Employee], [Daily Payroll].[Date], [Daily Payroll].[Week], 
+[Daily Payroll].[Reg Hours], [Daily Payroll].[OT Hours], [Job Table].[Location]
+FROM [Job Table], [Daily Payroll], Employee
+WHERE ((([Daily Payroll].[Week])=["Enter Payroll Week"]) And (([Daily Payroll].[PayYear])=["Enter Payroll Year"]) And (([Job Table].[ID])=[Daily Payroll].[JobID]) And (([Employee].[ID])=[Daily Payroll].[EmployeeID]) And (([Job Table].[Status])="Open"))
+ORDER BY [Employee].[Employee], [Employee].[Employee #], [Daily Payroll].[Date];
+-----------------------------------------------------------------------------------------------------------------------------
+SELECT [Job Table].[Job #], [Job Table].[Job Address], Employee.Employee,
+[Daily Payroll].Date, [Daily Payroll].Week, [Daily Payroll].[Reg Hours],
+[Daily Payroll].[OT Hours], [Job Table].Location
+FROM [Job Table], [Daily Payroll], Employee
+WHERE ((([Job Table].[Job #]) Like "1077*") AND (([Daily Payroll].PayYear)=["Enter Payroll Year"]) 
+AND (([Job Table].ID)=[Daily Payroll].[JobID] And ([Job Table].ID)=["Enter Job ID"]) AND
+((Employee.ID)=[Daily Payroll].[EmployeeID]) AND (([Job Table].Status)="Open"))
+ORDER BY [Job Table].[Job #], [Daily Payroll].Week, [Daily Payroll].Date, Employee.Employee, Employee.[Employee #];
+------------------------------------------------------------------------------------------------------------------------
+
+

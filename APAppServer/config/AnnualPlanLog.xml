@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+<appender name="SystemOutAppender" class="org.apache.log4j.ConsoleAppender">
+	<layout class="org.apache.log4j.PatternLayout">
+		<param name="ConversionPattern" value="%d{MM-dd-yy HH:mm:ss} %-5p %c [%t] - %m%n" />
+	</layout>
+</appender>
+
+<logger name="com.nyl.annualplan" additivity="false">
+		<level value="all" />
+		<appender-ref ref="SystemOutAppender" />
+</logger>
+<logger name="org.apache.struts" additivity="false">
+		<level value="all" />
+		<appender-ref ref="SystemOutAppender" />
+</logger>
+
+</log4j:configuration>

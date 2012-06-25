@@ -1,0 +1,5 @@
+SELECT [Daily Payroll].Date AS WorkDate, [Date Table].Weather, Employee.[Employee #], Employee.Employee, [Daily Payroll].[Job #], [Job Table].[Job Address], UCase(Format([Daily Payroll].[Date],"ddd",1,1)) AS DayName, Int(Format([Daily Payroll].[Date],"ww",1,1)) AS WeekNumber, [Daily Payroll].[Reg Hours], [Daily Payroll].[OT Hours]
+FROM Employee, [Job Table], [Date Table] INNER JOIN [Daily Payroll] ON [Date Table].Date = [Daily Payroll].Date
+WHERE Employee.[Employee #]=[Daily Payroll].[Employee #] 
+AND [Daily Payroll].[Job #]=[Job Table].[Job #]
+AND [Daily Payroll].[Job Address]=[Job Table].[Job Address];

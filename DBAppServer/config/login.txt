@@ -1,0 +1,4 @@
+http://wny-2n701.hq.nt.newyorklife.com:9081/dashboard/servlet/com.nyl.asap.dashboard.ResetDashboardConfigFileServlet
+http://wny-2n701.hq.nt.newyorklife.com:9081/dashboard/servlet/com.nyl.asap.dashboard.ResetTemplateManagerServlet
+http://wny-2n701.hq.nt.newyorklife.com:9081/dashboard/servlet/com.nyl.asap.dashboard.ClearCache
+http://wny-2n701.hq.nt.newyorklife.com:9081/dashboard/index.html

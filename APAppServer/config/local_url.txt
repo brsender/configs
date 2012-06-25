@@ -1,0 +1,1 @@
+http://WNY-BSENDE-02NR.hq.nt.newyorklife.com:9080/APWebApp/servlet/com.nyl.annualplan.ui.servlet.AnnualPlanServlet?txtReqType=/GoldSelectGOPage

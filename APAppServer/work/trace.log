@@ -1,0 +1,81 @@
+03-15-11 08:17:25 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Entering GoldAppPages.getPageName
+03-15-11 08:17:25 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Entered GoldAppPages.getNsetUserInformation
+03-15-11 08:17:25 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - GOLD: Security Object's ACF2 ID is T0602NR
+03-15-11 08:17:25 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Calling noSneaking from GoldAppPages.getNsetUserInformation
+03-15-11 08:17:25 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Entering noSneaking
+03-15-11 08:17:25 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - APDataManager::getConnection:Trying to get a connection.
+03-15-11 08:17:28 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - APDataManager::getConnection: conn established !
+03-15-11 08:17:28 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - APDataManager::closeConnection: Connection is closed.
+03-15-11 08:17:28 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - LocationLookup: conn closed successfully in getAllStatus.
+03-15-11 08:17:28 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Exiting noSneaking - - rValue = true
+03-15-11 08:17:28 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Calling noSneaking from GoldAppPages.getPageName
+03-15-11 08:17:28 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Entering noSneaking
+03-15-11 08:17:28 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Exiting noSneaking - - rValue = true
+03-15-11 08:17:28 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - Returning from GoldAppPages.getPageName - txtReqType value = /CompanyZoneOfficePage
+03-15-11 08:17:29 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - CompanyZoneOfficeHandler: doEnter ()
+03-15-11 08:17:29 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_6] - APDAOFactory::getInstance: APDAOFactory getInstance.
+03-15-11 08:18:00 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - Entering GoldAppPages.getPageName
+03-15-11 08:18:00 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - Calling noSneaking from GoldAppPages.getPageName
+03-15-11 08:18:00 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - Entering noSneaking
+03-15-11 08:18:00 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - Exiting noSneaking - - rValue = true
+03-15-11 08:18:00 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - Returning from GoldAppPages.getPageName - txtReqType value = /MP1APage
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - MP1AHandler: doEnter ()
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDAOFactory::getInstance: APDAOFactory getInstance.
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - GOLookUpDAOImpl::getGoName: Trying to get a connection to retrieve name for goCode S47
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection:Trying to get a connection.
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection: conn established !
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - GOLookUpDAOImpl::getGoName:conn established.
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - GOLookUpDAOImpl::getGOName: GO Name retrieval query is select org_unit_nm from AI0101.cur_go_zone where org_unit_cd='S47'
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::closeConnection: Connection is closed.
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDAOFactory::getInstance: APDAOFactory getInstance.
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection:Trying to get a connection.
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection: conn established !
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AgencyGrowthDAOImpl::getAgencyGrowths: conn established successfully.
+03-15-11 08:18:01 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AgencyGrowthDAOImpl::getAgencyGrowths: the sql is Select actual.RCR_NO RCR_NO, TRIM(actual.CLS_TP_CD) CLS, actual.CNTS_YTD_QY CNT_YTD, actual.APPTS_YTD_QY APPT_YTD, actual.ONROLL_YTD_QY ONROLL_YTD, actual.PROACT_YTD_QY PROACTIVE_YTD, actual.PRI_ME_APPTS_QY APPT_PME, NVL(planned.CUR_MO_QY,0) PLAN_CUR_MTH, NVL(planned.CUR_YR_QY,0) PLAN_CUR_YR, NVL(prior_planned.CUR_MO_QY,0) PLAN_PRI_MTH, TRIM(dash.ABREVIATED_NM) RCR_NM, TRIM(title.MK_TTL_TP_SHORT_NM) RCR_TITLE FROM YP0101.mp1a_rcr_cls_act_appts actual, YP0101.mp1a_rcr_pln_appts planned, (SELECT RCR_NO, NVL(CUR_MO_QY,0) cur_mo_qy  FROM YP0101.mp1a_rcr_pln_appts prior_planned, AI0101.mk_dashbrd dash  WHERE prior_planned.RCR_NO = dash.mktr_no  AND   ADD_MONTHS(TRUNC(SYSDATE, 'MONTH'), -1) = prior_planned.EFF_MO_DT  AND   dash.ALT_ORG_UNIT_CD = 'S47') prior_planned, AI0101.mk_dashbrd dash, AI0101.mk_ttl_tp title, (SELECT TRUNC(MAX(EFF_MO_DT), 'MONTH') MAXDATE FROM YP0101.mp1a_rcr_cls_act_appts) maxdate WHERE actual.RCR_NO = dash.MKTR_NO AND dash.ALT_ORG_UNIT_CD = 'S47' AND actual.RCR_NO = planned.RCR_NO (+) AND actual.RCR_NO = prior_planned.RCR_NO (+) AND MAXDATE = TRUNC(actual.EFF_MO_DT,'MONTH') AND actual.EFF_MO_DT = planned.EFF_MO_DT (+) AND actual.CLS_TP_CD IN ('1', '2', '3', '4') AND dash.MK_TTL_TP_CD = title.MK_TTL_TP_CD AND NOT dash.MK_TTL_TP_CD IN ('B3', 'B4', 'B5', 'B6') UNION Select actual.RCR_NO RCR_NO, TRIM(actual.CLS_TP_CD) CLS, actual.CNTS_YTD_QY CNT_YTD, actual.APPTS_YTD_QY APPT_YTD, actual.ONROLL_YTD_QY ONROLL_YTD, actual.PROACT_YTD_QY PROACTIVE_YTD, actual.PRI_ME_APPTS_QY APPT_PME, NVL(planned.CUR_MO_QY,0) PLAN_CUR_MTH, NVL(planned.CUR_YR_QY,0) PLAN_CUR_YR, NVL(prior_planned.CUR_MO_QY,0) PLAN_PRI_MTH, 'unassigned' RCR_NM, 'n/a' RCR_TITLE FROM YP0101.mp1a_rcr_cls_act_appts actual, YP0101.mp1a_rcr_pln_appts planned, (SELECT RCR_NO, ALT_ORG_UNIT_CD, NVL(CUR_MO_QY,0) cur_mo_qy  FROM YP0101.mp1a_rcr_pln_appts prior_planned  WHERE prior_planned.RCR_NO = 5555555  AND   ADD_MONTHS(TRUNC(SYSDATE, 'MONTH'), -1) = prior_planned.EFF_MO_DT  AND   ALT_ORG_UNIT_CD = 'S47') prior_planned, (SELECT TRUNC(MAX(EFF_MO_DT), 'MONTH') MAXDATE FROM YP0101.mp1a_rcr_cls_act_appts) maxdate WHERE actual.RCR_NO = 5555555 AND actual.ALT_ORG_UNIT_CD = 'S47' AND actual.RCR_NO = planned.RCR_NO (+) AND actual.RCR_NO = prior_planned.RCR_NO (+) AND actual.ALT_ORG_UNIT_CD = planned.ALT_ORG_UNIT_CD (+) AND actual.ALT_ORG_UNIT_CD = prior_planned.ALT_ORG_UNIT_CD (+) AND MAXDATE = TRUNC(actual.EFF_MO_DT,'MONTH') AND actual.EFF_MO_DT = planned.EFF_MO_DT (+) AND actual.CLS_TP_CD IN ('1', '2', '3', '4') ORDER BY RCR_NM
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::closeConnection: Connection is closed.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllStatusDAOImpl::getAgents: conn closed successfully in getAllStatus.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDAOFactory::getInstance: APDAOFactory getInstance.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection:Trying to get a connection.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection: conn established !
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllClassesDAOImpl::getAllClasses: conn established successfully in getAllClassesLookUp.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllClassesDAOImpl::getAllClasses: the agent sql is Select b.cls_sub_category, b.pri_yrend_mp from AI0101.ou_manpower b	where  b.alt_org_unit_cd  = 'S47' and   'New Org'  =  b.cls_category  
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllClassesDAOImpl::getAllClasses: the agent sql is Select upper(a.cls_tp_cd),   a.appts_ytd_qy from YP0101.mp1a_ou_cls_proact_appts a 	where  to_char(sysdate , 'YYYYMM') = to_char(a.eff_mo_dt,'YYYYMM') and  trim (' ' from  a.cls_tp_cd) in ( '1','2','3','4', 'MP') and  'S47'  = a.alt_org_unit_cd   
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllClassesDAOImpl::getAllClasses: the agent sql is Select SUM(b.pri_yrend_mp) from  AI0101.ou_manpower b	where  b.alt_org_unit_cd  = 'S47' and   'Established'  =  b.cls_category  
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::closeConnection: Connection is closed.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllClassesDAOImpl::getAllClasses conn closed successfully in getAllClasses.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllClassesDAOImpl::getAllClasses:  test displayb 
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDAOFactory::getInstance: APDAOFactory getInstance.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection:Trying to get a connection.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection: conn established !
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllStatusDAOImpl::getAllStatus: conn established successfully in getAllStatusLookUp.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllStatusDAOImpl::getAllStatus: the agent sql is Select upper(a.cnl_tp_cd),  a.pri_ye_qy, b.cnl_attnd_qy , a.prorata_pri_mo_qy,  a.prorata_cur_mo_qy from  YP0101.mp1a_ou_cnl_sts   a  ,  YP0101.mp1a_ou_cnl_attnd b  	where  to_char(sysdate , 'YYYYMM') = to_char(a.eff_mo_dt,'YYYYMM') and a.alt_org_unit_cd =  b.alt_org_unit_cd(+) and a.eff_mo_dt = b.eff_mo_dt(+) and   a.alt_org_unit_cd  = 'S47' 	 and a.cnl_tp_cd = b.cnl_tp_cd(+) 
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::closeConnection: Connection is closed.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - AllStatusDAOImpl::getAgents: conn closed successfully in getAllStatus.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDAOFactory::getInstance: APDAOFactory getInstance.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection:Trying to get a connection.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::getConnection: conn established !
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - SituationAnalysisDAOImpl::getAllSituations: conn established successfully.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - SituationAnalysisDAOImpl:: getAllSituations: the sql is  select * from YP0101.mp1a_ou_plns_rslts WHERE alt_org_unit_cd='S47' ORDER BY eff_mo_dt DESC
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - APDataManager::closeConnection: Connection is closed.
+03-15-11 08:18:02 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_47] - SituationAnalysisDAOImpl::getAllSituations: conn closed successfully
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Entering GoldAppPages.getPageName
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Calling noSneaking from GoldAppPages.getPageName
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Entering noSneaking
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Exiting noSneaking - - rValue = true
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Returning from GoldAppPages.getPageName - txtReqType value = /CompanyZoneOfficePage
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Entering GoldAppPages.getPageName
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Calling noSneaking from GoldAppPages.getPageName
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Entering noSneaking
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Exiting noSneaking - - rValue = true
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - Returning from GoldAppPages.getPageName - txtReqType value = /CompanyZoneOfficePage
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - MP1AHandler: doProcessEvent()...
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - APDAOFactory::getInstance: APDAOFactory getInstance.
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - GOLookUpDAOImpl::getGoName: Trying to get a connection to retrieve name for goCode null
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - APDataManager::getConnection:Trying to get a connection.
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - APDataManager::getConnection: conn established !
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - GOLookUpDAOImpl::getGoName:conn established.
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - GOLookUpDAOImpl::getGOName: GO Name retrieval query is select org_unit_nm from AI0101.cur_go_zone where org_unit_cd='null'
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - APDataManager::closeConnection: Connection is closed.
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] -  User T0602NRdoes not have access to modify the MP1A GOLD data.
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - CompanyZoneOfficeHandler: doEnter ()
+03-15-11 08:18:14 DEBUG com.nyl.annualplan.ui.util.AnnualPlanLogger [Thread_94] - APDAOFactory::getInstance: APDAOFactory getInstance.

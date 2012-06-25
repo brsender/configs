@@ -1,0 +1,5 @@
+MOVE 0 TO counter 
+INSPECT input-field TALLYING counter FOR LEADING "0" 
+MOVE input-field (counter + 1 :) TO output-field
+
+
